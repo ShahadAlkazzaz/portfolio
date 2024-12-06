@@ -3,10 +3,10 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const PortfolioNavbar = () => {
     return (
-        <Navbar variant="dark" expand="lg" fixed="top">
+        <Navbar variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand href="#" className="ms-2">
-                    Shahad Al-kazzaz
+                   Portfolio
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
