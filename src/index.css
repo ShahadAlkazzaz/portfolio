@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+:root {
+    --pink-lavender: #F1C2E4;
+    --amaranth-pink: #F69BC6;
+    --alice-blue: #E8F0FF;
+    --vista-blue: #8890D5;
+    --russian-violet: #441B62;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--russian-violet) !important;
+    color: var(--white);
+  }
+
+
+
+  a {
+    text-decoration: none;
+  }
