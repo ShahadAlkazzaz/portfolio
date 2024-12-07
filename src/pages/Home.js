@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Timeline from '../components/Timeline'
 const Home = () => {
     return (
         <div className="home-container">
@@ -52,6 +52,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+<Timeline/>
         </div>
     )
 }
