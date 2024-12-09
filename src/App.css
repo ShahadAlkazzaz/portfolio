@@ -402,3 +402,116 @@ footer {
       font-size: 1rem;
     }
   }
+
+
+
+
+  /* om mig - sidan */
+  .about-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--white);
+
+  }
+
+  .intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid var(--amaranth-pink);
+    object-fit: cover;
+  }
+
+  .intro-text {
+    flex: 1;
+    min-width: 250px;
+  }
+
+  .intro-text h1 {
+    font-size: 2.5rem;
+    color: var(--amaranth-pink);
+    margin-bottom: 15px;
+  }
+
+  .intro-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .skills-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: var(--vista-blue);
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+
+  }
+
+  .skill-item {
+    background-color: var(--russian-violet);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(204, 156, 214);
+    transition: transform 0.3s ease;
+  }
+
+  .skill-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .skill-item i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--amaranth-pink);
+  }
+
+  .skill-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--white);
+  }
+
+  .skill-item p {
+    font-size: 1rem;
+    color: var(--alice-blue);
+  }
+
+
+  /* För mindre skärmar */
+  @media (max-width: 768px) {
+    .intro-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-picture img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .intro-text h1 {
+      font-size: 2rem;
+    }
+
+    .intro-text p {
+      font-size: 1rem;
+    }
+  }
+
+
