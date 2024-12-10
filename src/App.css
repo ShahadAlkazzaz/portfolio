@@ -515,3 +515,54 @@ footer {
   }
 
 
+  /* Skills Sisan */
+.skills-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: var(--russian-violet);
+  }
+
+  .section-header {
+    font-size: 2.5rem;
+    color: var(--amaranth-pink);
+    margin-bottom: 20px;
+  }
+
+  .section-description {
+    font-size: 1.2rem;
+    color: var(--alice-blue);
+    margin-bottom: 40px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .skill-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--alice-blue);
+    margin-top: 10px;
+  }
+
+  .skill-item:hover .skill-icon {
+    transform: scale(1.1);
+  }
