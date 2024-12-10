@@ -16,9 +16,9 @@ const PortfolioNavbar = () => {
                     className="justify-content-end"
                 >
                     <Nav>
-                        <Nav.Link href="#about">Om mig</Nav.Link>
-                        <Nav.Link href="#skills">Kunskaper</Nav.Link>
-                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="about">Om mig</Nav.Link>
+                        <Nav.Link href="skills">Kunskaper</Nav.Link>
+                        <Nav.Link href="portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="contact">Kontakt</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
