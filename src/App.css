@@ -669,3 +669,64 @@ footer {
     background: var(--russian-violet);
     color: var(--alice-blue);
   }
+
+
+  /* referens sektion */
+
+  .references {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--alice-blue);
+    border-radius: 10px;
+  }
+
+  .references-header {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--russian-violet);
+    margin-bottom: 20px;
+  }
+
+  .references-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center; /* För att centrera korten horisontellt */
+  }
+
+  .reference-item {
+    background: var(--white);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  .reference-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--amaranth-pink);
+    margin-bottom: 5px;
+  }
+
+  .reference-title {
+    font-size: 1rem;
+    color: var(--russian-violet);
+    margin-bottom: 10px;
+  }
+
+  .reference-phone,
+  .reference-email {
+    font-size: 0.9rem;
+    color: var(--black);
+    margin-bottom: 5px;
+  }
+
+  .reference-email a {
+    color: var(--amaranth-pink);
+    text-decoration: none;
+  }
+
+  .reference-email a:hover {
+    text-decoration: underline;
+  }
