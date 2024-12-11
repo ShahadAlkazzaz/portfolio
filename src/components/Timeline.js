@@ -10,25 +10,41 @@ const Timeline = () => {
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>Frontend Developer på XYZ</h3>
-              <p>Jan 2023 - Dec 2024</p>
-              <p>Arbetade med React och skapade användarvänliga webblösningar.</p>
+              <h3>Praktik hos Sprinto</h3>
+              <p>April 2024 - Juni 2024</p>
+              <p>Arbetade med att utveckla och förbättra digitala lösningar.</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>Utbildning på IT-Högskolan</h3>
-              <p>2022 - 2023</p>
-              <p>Studerade webbutveckling med fokus på .NET och React.</p>
+              <h3>Praktik hos Swedcon</h3>
+              <p>Januari 2024 - April 2024</p>
+              <p>Hanterade projekt inom webbutveckling och integrationer.</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
-              <h3>Intern på Digital Engine</h3>
-              <p>Sommar 2022</p>
-              <p>Lärde mig om API-integrationer och modern frontend-utveckling.</p>
+              <h3>Praktik hos Junico (IT-Konsulter)</h3>
+              <p>Augusti 2023 - Oktober 2023</p>
+              <p>Fick erfarenhet av konsulttjänster inom webbutveckling.</p>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>Biblioteksassistent/IT-värd</h3>
+              <p>September 2020 - Januari 2021</p>
+              <p>Arbetade på Stockholms stadsbibliotek med IT-support och kundtjänst.</p>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>Praktik hos Huawei</h3>
+              <p>Juli 2014 - September 2014</p>
+              <p>Jobbade inom nätverk och mobilkommunikation i Baghdad.</p>
             </div>
           </div>
         </div>

@@ -1,16 +1,27 @@
 import React from 'react'
 import Timeline from '../components/Timeline'
+
 const Home = () => {
     return (
         <div className="home-container">
             {/* Hero Section */}
             <section className="hero">
-                <h1>Hej, jag heter Shahad Al-kazzaz</h1>
-                <p>
-                    Frontend-utvecklare som skapar moderna och användarvänliga
-                    webbplatser.
-                </p>
-                <button className="btn-primary">Ladda CV</button>
+                <img src="../images/1.jpeg" alt="Shahad Al-kazzaz" />
+                <div className="hero-text">
+                    <h1>Hej, Shahad Al-kazzaz heter jag</h1>
+                    <p>
+                        Frontend-utvecklare som skapar moderna och
+                        användarvänliga webbplatser.
+                    </p>
+                    <button className="btn-primary">
+                        <a
+                            href="/Shahad_Al-kazzaz_CV.pdf"
+                            download="Shahad_Al-kazzaz_CV.pdf"
+                        >
+                            Ladda ner mitt CV
+                        </a>
+                    </button>
+                </div>
             </section>
 
             {/* Översikts-sektion */}
@@ -52,7 +63,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-<Timeline/>
+            <Timeline />
         </div>
     )
 }
